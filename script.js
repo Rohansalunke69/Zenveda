@@ -1,5 +1,5 @@
 
-const GEMINI_API_KEY = "AIzaSyAzjYYgY34YDbEQofAHYPsLycL2";
+const GEMINI_API_KEY = "API KEY CANNOT BE PUBlIC";
 const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
 
 document.querySelectorAll('nav a').forEach(anchor => {
