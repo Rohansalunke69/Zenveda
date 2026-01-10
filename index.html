@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenVeda - Ancient Wisdom. Modern Intelligence.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-leaf"></i> ZenVeda
+            </div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#sdg-impact">SDG Impact</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>ZenVeda – Ancient Wisdom. Modern Intelligence.</h1>
+            <p>AI-powered Ayurvedic guidance for holistic, organic living.</p>
+            <a href="#ai-checkup" class="cta-button"id="get started">get started</a>
+        </div>
+    </section>
+
+    <section id="ai-checkup" class="ai-checkup">
+    <div class="container">
+        <h2>Start Your ZenVeda Health Check</h2>
+        <p>Select what you want to improve today</p>
+
+        <div class="problem-grid">
+            <button class="problem-card" data-problem="Digestion">🌿 Digestion Issues</button>
+            <button class="problem-card" data-problem="Stress">🧠 Stress & Anxiety</button>
+            <button class="problem-card" data-problem="Sleep">🛌 Sleep Problems</button>
+            <button class="problem-card" data-problem="Skin">🧴 Skin & Hair</button>
+            <button class="problem-card" data-problem="Weight">⚖️ Weight Management</button>
+            <button class="problem-card" data-problem="Joint">🦴 Joint Pain</button>
+            <button class="problem-card" data-problem="Wellness">🌼 General Wellness</button>
+        </div>
+
+        <div id="question-area"></div>
+
+      
+        <div id="camera-section" style="display:none;">
+            <h3>Optional Visual Analysis</h3>
+            <p>You can upload an image or use live camera for better analysis.</p>
+
+            <input type="file" id="imageUpload" accept="image/*">
+
+            <div class="camera-box">
+                <video id="camera" autoplay></video>
+                <button id="startCamera" class="cta-button">Open Camera</button>
+                <button id="capture" class="cta-button">Capture</button>
+                <canvas id="snapshot" style="display:none;"></canvas>
+            </div>
+        </div>
+
+        <button id="submitAI" class="cta-button" style="display:none;">Get AI Guidance</button>
+
+        <div id="ai-result" class="ai-result"></div>
+    </div>
+</section>
+
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About ZenVeda</h2>
+            <p>ZenVeda is an AI-powered assistant that analyzes your symptoms, lifestyle, and dosha to provide safe, personalized Ayurvedic guidance. Rooted in ancient Indian wisdom, it blends modern technology for holistic wellness.</p>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Dosha Analysis</h3>
+                    <p>Understand your unique dosha balance for tailored advice.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Organic Diet Plans</h3>
+                    <p>Customized, organic meal plans based on Ayurvedic principles.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Herbal Guidance</h3>
+                    <p>Recommendations for natural herbs and remedies.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-yoga"></i>
+                    <h3>Yoga & Daily Routine</h3>
+                    <p>Personalized yoga poses and daily rituals for balance.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Disease Prevention</h3>
+                    <p>Proactive tips to prevent illnesses naturally.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-user-md"></i>
+                    <h3>Expert Connect</h3>
+                    <p>Connect with certified Ayurvedic experts for deeper insights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Tell us about your lifestyle & symptoms</h3>
+                    <p>Share details through our intuitive interface.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>ZenVeda analyzes using Ayurvedic principles</h3>
+                    <p>Our AI processes your data with ancient wisdom.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Get personalized organic guidance</h3>
+                    <p>Receive tailored recommendations for holistic living.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sdg-impact" class="sdg-impact">
+        <div class="container">
+            <h2>SDG Impact</h2>
+            <div class="sdg-grid">
+                <div class="sdg-card">
+                    <img src="https://via.placeholder.com/150?text=SDG+3" alt="SDG 3: Good Health and Well-being">
+                    <h3>SDG 3: Good Health & Well-being</h3>
+                    <p>Promoting accessible, holistic health solutions for all.</p>
+                </div>
+                <div class="sdg-card">
+                    <img src="https://via.placeholder.com/150?text=SDG+9" alt="SDG 9: Industry, Innovation and Infrastructure">
+                    <h3>SDG 9: Innovation in Healthcare</h3>
+                    <p>Advancing AI-driven innovations in traditional medicine.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2>Benefits</h2>
+            <ul>
+                <li>Reduces chemical dependency through natural alternatives.</li>
+                <li>Promotes preventive care for long-term wellness.</li>
+                <li>Connects rural users to authentic Ayurveda.</li>
+                <li>Provides safe and verified guidance backed by experts.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i> ZenVeda
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2023 ZenVeda. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
